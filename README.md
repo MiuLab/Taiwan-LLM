@@ -1,3 +1,12 @@
+# Taiwanese-Aligned Language Models
+
+## Overview
+Taiwan-LLaMa is a fine-tuned model based on LLaMa2 for traditional chinese application.
+
+## Demo
+A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
+
+
 ## Citation
 If you use our code, data, or models in your research, please cite this repository. You can use the following BibTeX entry:
 
