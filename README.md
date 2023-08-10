@@ -23,9 +23,9 @@ We provide a number of model checkpoints that we trained. You can find them on H
 
 | **Model**                                              | **13B**                                                                                                                       | 
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Taiwan-LLaMa v1.0**                                  | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a> </sup> | 
-| Taiwan-LLaMa v0.9 (partial instruction set)            | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.9" target="_blank">yentinglin/Taiwan-LLaMa-v0.9</a> </sup> | 
-| Taiwan-LLaMa v0.0 (no Traditional Chinese pretraining) | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a> </sup> | 
+| **Taiwan-LLaMa v1.0**                                  | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a>  | 
+| Taiwan-LLaMa v0.9 (partial instruction set)            | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.9" target="_blank">yentinglin/Taiwan-LLaMa-v0.9</a>  | 
+| Taiwan-LLaMa v0.0 (no Traditional Chinese pretraining) | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a>  | 
 
 ## Data
 
@@ -33,8 +33,8 @@ Here are some quick links to the datasets that we used to train the models:
 
 | **Dataset**                     | **Link**                                                                                                                      | 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Instruction-tuning**      | <sup>🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_chinese_instructions" target="_blank">yentinglin/traditional_chinese_instructions</a> </sup>                                          | 
-| Traditional Chinese Pretraining | <sup>🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a> </sup>                                          | 
+| **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_chinese_instructions" target="_blank">yentinglin/traditional_chinese_instructions</a>                                           | 
+| Traditional Chinese Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 
 
