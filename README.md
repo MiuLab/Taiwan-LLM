@@ -1,15 +1,52 @@
 # Taiwanese-Aligned Language Models
 
+<p align="center">
+🤗 <a href="https://huggingface.co/yentinglin" target="_blank">HF Repo</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/pdf/2305.13711.pdf" target="_blank">[Paper Coming Soon]</a>  
+</p>
+
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
+[![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
+
+
 ## Overview
 Taiwan-LLaMa is a fine-tuned model based on LLaMa2 for traditional chinese application.
 
 ## Demo
 A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
 
+## Model
+
+We provide a number of model checkpoints that we trained. You can find them on Hugging Face [here](https://huggingface.co/models?search=taiwan-llama). Here are some quick links to the checkpoints that are finetuned from LLaMa 2:
+
+| **Model**                                              | **13B**                                                                                                                       | 
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Taiwan-LLaMa v1.0**                                  | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a> </sup> | 
+| Taiwan-LLaMa v0.9 (partial instruction set)            | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.9" target="_blank">yentinglin/Taiwan-LLaMa-v0.9</a> </sup> | 
+| Taiwan-LLaMa v0.0 (no Traditional Chinese pretraining) | <sup>🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a> </sup> | 
+
+## Data
+
+Here are some quick links to the datasets that we used to train the models:
+
+| **Dataset**                     | **Link**                                                                                                                      | 
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Instruction-tuning**      | <sup>🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_chinese_instructions" target="_blank">yentinglin/traditional_chinese_instructions</a> </sup>                                          | 
+| Traditional Chinese Pretraining | <sup>🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a> </sup>                                          | 
+
+
+
+
 ## How to deploy model on my own machine?
-We recommend hosting models with [Text Generation Inference](https://github.com/huggingface/text-generation-inference). Please see their [license](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) for details on usage and limitations.
+We recommend hosting models with [🤗 Text Generation Inference](https://github.com/huggingface/text-generation-inference). Please see their [license](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) for details on usage and limitations.
 ```bash
 bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
+```
+
+## Setup development environment
+```bash
+conda create -n taiwan-llama python=3.10 -y 
+conda activate taiwan-llama
+pip install -r requirements.txt
 ```
 
 
@@ -34,3 +71,7 @@ The models included in this project are licensed under the LLAMA 2 Community Lic
 ## OpenAI Data Acknowledgment
 The data included in this project were generated using OpenAI's models and are subject to OpenAI's Terms of Use. Please review [OpenAI's Terms of Use](https://openai.com/policies/terms-of-use) for details on usage and limitations.
 
+
+## Acknowledgements
+
+We thank [Meta LLaMA team](https://github.com/facebookresearch/llama) and [Vicuna team](https://github.com/lm-sys/FastChat) for their open-source efforts in democratizing large language models.
