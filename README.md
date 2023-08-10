@@ -37,6 +37,24 @@ Here are some quick links to the datasets that we used to train the models:
 | Traditional Chinese Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 
+## Vicuna Bench (Traditional Chinese Version): Relative Scores with ChatGPT as baseline
+
+![Relative Scores Chart](./images/zhtw_vicuna_bench_chatgptbaseline.png)
+
+The scores are calculated with ChatGPT as the baseline, represented as 100%. The other values show the relative performance of different models compared to ChatGPT.
+
+| Language Model                      | Relative Score (%) |
+|-------------------------------------|--------------------|
+| GPT-4                               | 102.59%            |
+| ChatGPT                             | 100.00%            |
+| **Taiwan-LLaMa v0.0**               | 83.62%             |
+| Claude                              | 78.21%             |
+| **Taiwan-LLaMa v0.9**               | 77.65%             |
+| **Taiwan-LLaMa v1.0**               | 76.76%             |
+| Claude-Instant                      | 74.04%             |
+| Llama2_Traditional_Chinese_13b_Chat | 56.21%             |
+
+
 
 
 ## How to deploy model on my own machine?

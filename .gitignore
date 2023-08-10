@@ -684,3 +684,4 @@ fabric.properties
 /.idea/sshConfigs.xml
 /.idea/Taiwan-LLaMa.iml
 /.idea/vcs.xml
+/evaluation/zh_tw_bench/model_judgment/
