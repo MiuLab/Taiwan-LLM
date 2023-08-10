@@ -48,10 +48,10 @@ The scores are calculated with ChatGPT as the baseline, represented as 100%. The
 | GPT-4                               | 102.59%            |
 | ChatGPT                             | 100.00%            |
 | **Taiwan-LLaMa v0.0**               | 83.62%             |
-| Claude                              | 78.21%             |
+| Claude-2.0                          | 78.21%             |
 | **Taiwan-LLaMa v0.9**               | 77.65%             |
 | **Taiwan-LLaMa v1.0**               | 76.76%             |
-| Claude-Instant                      | 74.04%             |
+| Claude-Instant-1.2                  | 74.04%             |
 | Llama2_Traditional_Chinese_13b_Chat | 56.21%             |
 
 
