@@ -1,16 +1,18 @@
-import random
 import time
 import os
 import gradio as gr
 from text_generation import Client
 from conversation import get_default_conv_template
+from transformers import AutoTokenizer
 
 
 endpoint_url = os.environ.get("ENDPOINT_URL", "http://127.0.0.1:8080")
 client = Client(endpoint_url, timeout=120)
 eos_token = "</s>"
+max_new_tokens = 512
+max_prompt_length = 4096 - max_new_tokens - 10
 
-
+tokenizer = AutoTokenizer.from_pretrained("yentinglin/Taiwan-LLaMa-v1.0")
 
 with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
@@ -27,11 +29,15 @@ with gr.Blocks() as demo:
             conv.append_message(roles['human'], user)
             conv.append_message(roles["gpt"], bot)
         msg = conv.get_prompt()
+        prompt_tokens = tokenizer.encode(msg)
+        length_of_prompt = len(prompt_tokens)
+        if length_of_prompt > max_prompt_length:
+            msg = tokenizer.decode(prompt_tokens[-max_prompt_length+1:])
 
         history[-1][1] = ""
         for response in client.generate_stream(
                 msg,
-                max_new_tokens=512,
+                max_new_tokens=max_new_tokens,
         ):
             if not response.token.special:
                 character = response.token.text
