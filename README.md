@@ -13,6 +13,7 @@
 
 ## Overview
 Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for traditional chinese applications.
+**Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional chinese.
 
 ## Demo
 A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
