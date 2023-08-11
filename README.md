@@ -20,7 +20,7 @@
 
 
 ## Overview
-Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for traditional chinese applications.
+Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for Traditional Chinese applications.
 
 **Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional chinese.
 
@@ -39,8 +39,8 @@ A live demonstration of the model can be accessed at [Hugging Face Spaces](https
 
 
 ## Work in progress
-- [ ] **Improved Pretraining**: A refined version of the existing pretraining approach is under development, aiming to enhance model performance.
-- [ ] **Extended Model Length**: Utilizing the Rope mechanism as described in [the paper](https://arxiv.org/abs/2104.09864), the model's length will be extended from 4k to 8k.
+- [ ] **Improved pretraining**: A refined pretraining process (e.g. more data from Taiwan, training strategies) is under development, aiming to enhance model performance for better Taiwanese culture.
+- [ ] **Extend max length**: Utilizing the Rope mechanism as described in [the paper](https://arxiv.org/abs/2104.09864), the model's length will be extended from 4k to 8k.
 
 
 ## Taiwanese Culture Examples
