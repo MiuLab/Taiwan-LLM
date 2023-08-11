@@ -5,13 +5,16 @@
 ✍️ <a href="https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2" target="_blank">Online Demo</a>  
 •
 🤗 <a href="https://huggingface.co/yentinglin" target="_blank">HF Repo</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/pdf/2305.13711.pdf" target="_blank">[Paper Coming Soon]</a>  
-• 👨️ <a href="https://yentingl.com/" target="_blank">Yen-Ting Lin</a>  <br/><br/>
+• 👨️ <a href="https://yentingl.com/" target="_blank">Yen-Ting Lin</a> 
+    <br/><br/>
     <img src="https://www.csie.ntu.edu.tw/~miulab/taiwan-llama/logo-v2.png" width="100"> <br/>
+    <a href="https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE">
+<img src="https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg"></a>
+    <a href="https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE">
+        <img src="https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg"></a>
+    <br/>
    
 </p>
-
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
-[![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
 
 
 
