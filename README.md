@@ -1,4 +1,4 @@
-    # Language Models for Taiwanese Culture
+# Language Models for Taiwanese Culture
 
 <p align="center">
 ✍️ <a href="https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2" target="_blank">Online Demo</a>  
