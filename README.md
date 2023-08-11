@@ -29,7 +29,7 @@ A live demonstration of the model can be accessed at [Hugging Face Spaces](https
 
 ## Taiwanese Culture Examples
 
-| Question  | ChatGPT  | **Taiwan LLaMa v1.0**  | **Taiwan LLaMa v0.0 (No pretraining)**  | 見學館 Llama 13b  | 
+| Question  | ChatGPT  | **Taiwan LLaMa v1.0**  | **Taiwan LLaMa v0.0 (w/o pretraining)**  | Llama2_Traditional_Chinese_13b_Chat  | 
 |:-|:-|:-|:-|:-|
 | 以惡地景觀著名的是高雄哪一個景點?   | 以惡地地景著名的是高雄市的旗津。    | 高雄以擁有惡地景觀著名的景點是田寮月世界。✅ | 以惡地景觀著名的是高雄市的旗津島。旗津島是一個小島，... | 高雄市內有多個以惡地景觀著名的景點，其中以下面幾個最為著名： 1. 高雄捷運紅線沿途景點：高雄市政府為了推廣高雄  |
 | 唐鳳是誰？  | 唐鳳（Audrey Tang）是台灣的政治家、社會活動家和軟體工程師。她於2016年擔任台灣行政院數位政務委員，是台灣政府歷史上首位沒有政黨背景的政務官。唐鳳在軟體工程領域有豐富的經驗。 ✅ | 唐鳳是政治評論家、資訊社會學研究者，也是台灣第一位擔任政府數位政委的人。 ✅ | 唐鳳（Tang Feng）是一位著名的中國演員和歌手。他出生於1974年12月17日，出生地點在中國北京。唐鳳在1995年開始他的演藝生涯，並在同年發行了他的首張專輯《我不孤單》。此後，他發行了許多受歡迎的歌曲，並在多部電視劇和電影中擔任主角。唐鳳因其精湛的演技和迷人的歌聲而被譽為“亞洲魅力男王”。他的音樂獲得了多個獎項，包括“華表最佳新男演唱獎”、“華表最佳歌曲獎”和“華表最佳舞蹈獎”等。  | 唐鳳是唐朝時期的一位著名文學家，他的代表作品包括《陰騭》、《狂凡子》等。他的文學風格具有強烈的個性和創意，被譽為「唐代文學之父」。  |
@@ -71,7 +71,7 @@ It includes:
 The data is translated into traditional Chinese for evaluating the general capability.
 
 
-![Relative Scores Chart](./images/zhtw_vicuna_bench_chatgptbaseline.png)
+<img src="./images/zhtw_vicuna_bench_chatgptbaseline.png" width="700">
 
 The scores are calculated with ChatGPT as the baseline, represented as 100%. The other values show the relative performance of different models compared to ChatGPT.
 
@@ -79,9 +79,6 @@ The scores are calculated with ChatGPT as the baseline, represented as 100%. The
 |-------------------------------------|--------------------|
 | GPT-4                               | 102.59%            |
 | ChatGPT                             | 100.00%            |
-| **Taiwan-LLaMa v0.0**               | 83.62%             |
-| Claude-2.0                          | 78.21%             |
-| **Taiwan-LLaMa v0.9**               | 77.65%             |
 | **Taiwan-LLaMa v1.0**               | 76.76%             |
 | Claude-Instant-1.2                  | 74.04%             |
 | Llama2_Traditional_Chinese_13b_Chat | 56.21%             |
@@ -114,20 +111,18 @@ If you use our code, data, or models in your research, please cite this reposito
 ```bibtex
 @inproceedings{lin-chen-2023-llm,
     title = "{LLM}-Eval: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models",
-    author = "Lin, Yen-Ting  and
-      Chen, Yun-Nung",
+    author = "Lin, Yen-Ting  and Chen, Yun-Nung",
     booktitle = "Proceedings of the 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023)",
     month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.nlp4convai-1.5",
-    pages = "47--58",
-    abstract = "We propose LLM-Eval, a unified multi-dimensional automatic evaluation method for open-domain conversations with large language models (LLMs). Existing evaluation methods often rely on human annotations, ground-truth responses, or multiple LLM prompts, which can be expensive and time-consuming. To address these issues, we design a single prompt-based evaluation method that leverages a unified evaluation schema to cover multiple dimensions of conversation quality in a single model call. We extensively evaluate the performance of LLM-Eval on various benchmark datasets, demonstrating its effectiveness, efficiency, and adaptability compared to state-of-the-art evaluation methods. Our analysis also highlights the importance of choosing suitable LLMs and decoding strategies for accurate evaluation results. LLM-Eval offers a versatile and robust solution for evaluating open-domain conversation systems, streamlining the evaluation process and providing consistent performance across diverse scenarios.",
+    pages = "47--58"
 }
 
 @misc{taiwanllama,
-    author={Lin Yen-Ting and Chen Yun-Nung},
+    author={Lin, Yen-Ting and Chen, Yun-Nung},
     title={Taiwanese-Aligned Language Models based on Meta-Llama2},
     year={2023},
     url={https://github.com/adamlin120/Taiwan-LLaMa},
