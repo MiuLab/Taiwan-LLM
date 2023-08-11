@@ -27,6 +27,22 @@ Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for tradition
 ## Demo
 A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
 
+## Key Features
+
+1. **Traditional Chinese Support**: The model is fine-tuned to understand and generate text in Traditional Chinese, making it suitable for Taiwanese culture and related applications.
+
+2. **Instruction-Tuned**: Further fine-tuned on conversational data to offer context-aware and instruction-following responses.
+
+3. **Performance on Vicuna Benchmark**: Taiwan-LLaMa's relative performance on Vicuna Benchmark is measured against models like GPT-4 and ChatGPT. It's particularly optimized for Taiwanese culture.
+
+4. **Flexible Customization**: Advanced options for controlling the model's behavior like system prompt, temperature, top-p, and top-k are available in the demo.
+
+
+## Work in progress
+- [ ] **Improved Pretraining**: A refined version of the existing pretraining approach is under development, aiming to enhance model performance.
+- [ ] **Extended Model Length**: Utilizing the Rope mechanism as described in [the paper](https://arxiv.org/abs/2104.09864), the model's length will be extended from 4k to 8k.
+
+
 ## Taiwanese Culture Examples
 
 | Question  | ChatGPT  | **Taiwan LLaMa v1.0**  | **Taiwan LLaMa v0.0 (w/o pretraining)**  | Llama2_Traditional_Chinese_13b_Chat  | 
