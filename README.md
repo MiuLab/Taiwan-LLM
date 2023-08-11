@@ -77,6 +77,11 @@ We recommend hosting models with [🤗 Text Generation Inference](https://github
 bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
 ```
 
+Prompt format follows vicuna-v1.1 template:
+```
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {user} ASSISTANT:
+```
+
 ## Setup development environment
 ```bash
 conda create -n taiwan-llama python=3.10 -y 
