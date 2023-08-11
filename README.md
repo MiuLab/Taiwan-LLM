@@ -13,6 +13,7 @@
 
 ## Overview
 Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for traditional chinese applications.
+
 **Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional chinese.
 
 ## Demo
@@ -48,6 +49,14 @@ Here are some quick links to the datasets that we used to train the models:
 | **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_chinese_instructions" target="_blank">yentinglin/traditional_chinese_instructions</a>                                           | 
 | Traditional Chinese Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
+
+## Architecture
+Taiwan-LLaMa is based on LLaMa 2, leveraging transformer architecture, <a href="https://github.com/Dao-AILab/flash-attention" target="_blank">flash attention 2</a>, and bfloat16.
+
+It includes:
+
+* Pretraining Phase: Pretrained on a vast corpus of over 5 billion tokens, extracted from common crawl in Traditional Chinese.
+* Fine-tuning Phase: Further instruction-tuned on over 490k multi-turn conversational data to enable more instruction-following and context-aware responses.
 
 ## Generic Capabilities on Vicuna Benchmark 
 
@@ -117,6 +126,9 @@ If you use our code, data, or models in your research, please cite this reposito
     note={Code and models available at https://github.com/adamlin120/Taiwan-LLaMa},
 }
 ```
+
+## Collaborate With Us
+If you are interested in contributing to the development of Traditional Chinese language models, exploring new applications, or leveraging Taiwan-LLaMa for your specific needs, please don't hesitate to contact us. We welcome collaborations from academia, industry, and individual contributors.
 
 ## License
 The code in this project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
