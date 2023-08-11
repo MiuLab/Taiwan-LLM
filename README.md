@@ -1,4 +1,4 @@
-# Taiwanese-Aligned Language Models
+# Language Models for Taiwanese Culture
 
 <p align="center">
 ✍️ <a href="https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2" target="_blank">Online Demo</a>  
@@ -12,14 +12,14 @@
 
 
 ## Overview
-Taiwan-LLaMa is a fine-tuned model based on LLaMa2 for traditional chinese application.
+Taiwan-LLaMa is a fine-tuned model based on LLaMa 2 for traditional chinese applications.
 
 ## Demo
 A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
 
 ## Model
 
-We provide a number of model checkpoints that we trained. You can find them on Hugging Face [here](https://huggingface.co/models?search=taiwan-llama). Here are some quick links to the checkpoints that are finetuned from LLaMa 2:
+We provide a number of model checkpoints that we trained. Please find them on Hugging Face [here](https://huggingface.co/models?search=taiwan-llama). Here are some quick links to the checkpoints that are finetuned from LLaMa 2:
 
 | **Model**                                              | **13B**                                                                                                                       | 
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,10 @@ Here are some quick links to the datasets that we used to train the models:
 | Traditional Chinese Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 
-## Vicuna Bench (Traditional Chinese Version): Relative Scores with ChatGPT as baseline
+## Generic Capabilities on Vicuna Benchmark 
+
+The data is translated into traditional Chinese for evaluating the general capability.
+
 
 ![Relative Scores Chart](./images/zhtw_vicuna_bench_chatgptbaseline.png)
 
