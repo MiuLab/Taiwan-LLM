@@ -20,16 +20,16 @@
 
 
 ## Overview
-Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for Traditional Chinese applications.
+Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for Traditional Mandarin applications.
 
-**Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional chinese.
+**Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional mandarin.
 
 ## Demo
 A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
 
 ## Key Features
 
-1. **Traditional Chinese Support**: The model is fine-tuned to understand and generate text in Traditional Chinese, making it suitable for Taiwanese culture and related applications.
+1. **Traditional Mandarin Support**: The model is fine-tuned to understand and generate text in Traditional Mandarin, making it suitable for Taiwanese culture and related applications.
 
 2. **Instruction-Tuned**: Further fine-tuned on conversational data to offer context-aware and instruction-following responses.
 
@@ -62,7 +62,7 @@ We provide a number of model checkpoints that we trained. Please find them on Hu
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | **Taiwan-LLaMa v1.0** (_better for Taiwanese Culture_)   | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a>  | 
 | Taiwan-LLaMa v0.9 (partial instruction set)            | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.9" target="_blank">yentinglin/Taiwan-LLaMa-v0.9</a>  | 
-| Taiwan-LLaMa v0.0 (no Traditional Chinese pretraining) | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a>  | 
+| Taiwan-LLaMa v0.0 (no Traditional Mandarin pretraining) | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a>  | 
 
 ## Data
 
@@ -70,8 +70,8 @@ Here are some quick links to the datasets that we used to train the models:
 
 | **Dataset**                     | **Link**                                                                                                                      | 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_chinese_instructions" target="_blank">yentinglin/traditional_chinese_instructions</a>                                           | 
-| Traditional Chinese Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
+| **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
+| Traditional Mandarin Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 
 ## Architecture
@@ -79,12 +79,12 @@ Taiwan-LLaMa is based on LLaMa 2, leveraging transformer architecture, <a href="
 
 It includes:
 
-* Pretraining Phase: Pretrained on a vast corpus of over 5 billion tokens, extracted from common crawl in Traditional Chinese.
+* Pretraining Phase: Pretrained on a vast corpus of over 5 billion tokens, extracted from common crawl in Traditional Mandarin.
 * Fine-tuning Phase: Further instruction-tuned on over 490k multi-turn conversational data to enable more instruction-following and context-aware responses.
 
 ## Generic Capabilities on Vicuna Benchmark 
 
-The data is translated into traditional Chinese for evaluating the general capability.
+The data is translated into traditional mandarin for evaluating the general capability.
 
 
 <img src="./images/zhtw_vicuna_bench_chatgptbaseline.png" width="700">
@@ -147,7 +147,7 @@ If you use our code, data, or models in your research, please cite this reposito
 ```
 
 ## Collaborate With Us
-If you are interested in contributing to the development of Traditional Chinese language models, exploring new applications, or leveraging Taiwan-LLaMa for your specific needs, please don't hesitate to contact us. We welcome collaborations from academia, industry, and individual contributors.
+If you are interested in contributing to the development of Traditional Mandarin language models, exploring new applications, or leveraging Taiwan-LLaMa for your specific needs, please don't hesitate to contact us. We welcome collaborations from academia, industry, and individual contributors.
 
 ## License
 The code in this project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
