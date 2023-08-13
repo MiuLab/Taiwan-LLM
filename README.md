@@ -141,8 +141,8 @@ If you use our code, data, or models in your research, please cite this reposito
     author={Lin, Yen-Ting and Chen, Yun-Nung},
     title={Taiwanese-Aligned Language Models based on Meta-Llama2},
     year={2023},
-    url={https://github.com/adamlin120/Taiwan-LLaMa},
-    note={Code and models available at https://github.com/adamlin120/Taiwan-LLaMa},
+    url={https://github.com/MiuLab/Taiwan-LLaMa},
+    note={Code and models available at https://github.com/MiuLab/Taiwan-LLaMa},
 }
 ```
 
