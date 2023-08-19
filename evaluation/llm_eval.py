@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 from tqdm import tqdm
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import ChatLiteLLM
 from langchain.llms import Anthropic
 
 logging.basicConfig(level=logging.INFO)
@@ -171,13 +171,7 @@ if __name__ == "__main__":
 
     model_name = args.judge_name
     temperature = 0
-    if "gpt-3.5" in model_name or "gpt-4" in model_name:
-        chat = ChatOpenAI(temperature=temperature, model_name=model_name, max_retries=5)
-    elif "claude" in model_name:
-        chat = Anthropic(model=model_name, temperature=temperature)
-    else:
-        raise ValueError("Unknown model name %s" % model_name)
-
+    chat = ChatLiteLLM(temperature=temperature, model_name=model_name, max_retries=5)
     results = []
     for prompt in tqdm(prompts):
         print(f"A is {prompt['A']}, B is {prompt['B']}")

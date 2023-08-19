@@ -5,7 +5,7 @@ from collections import defaultdict
 
 import pandas as pd
 from tqdm import tqdm
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import ChatLiteLLM
 
 
 if __name__ == "__main__":
@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     scores_ab = defaultdict(list)
 
-    chat = ChatOpenAI(model_name='gpt-3.5-turbo')
+    chat = ChatLiteLLM(model_name='gpt-3.5-turbo')
     for _, row in tqdm(df.iterrows(), total=len(df)):
         text_score = row['result']
 
