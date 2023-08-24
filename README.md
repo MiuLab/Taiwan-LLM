@@ -90,7 +90,7 @@ It includes:
 
 Taiwan LLaMa is being benchmarked on the TTQA dataset, a evaluation set for question answering models specific to Taiwan-related trivia.
 
-As of the current stage, Taiwan LLaMa has achieved a score identical to 75% (48 out of 64) of the performance observed with ChatGPT.
+As of the current stage, Taiwan LLaMa has achieved a score identical to 75% (48 out of 64) of the performance observed with ChatGPT. (Both in 0-shot)
 
 Further comparisons and in-depth analysis are in progress.
 
