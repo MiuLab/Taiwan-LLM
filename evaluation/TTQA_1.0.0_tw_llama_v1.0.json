@@ -1,0 +1,729 @@
+[
+  {
+    "answer": "櫻花鉤吻鮭",
+    "examples": "它是位於亞熱帶的台灣內唯一一種溫帶性魚類，也是只產於台灣的特有櫻鮭亞種，為冰河孑遺生物。由於其相當稀有且瀕臨絕種，加上它的生活習性迥異於其他魚類，遂得「國寶魚」之美譽。\n該動物的名稱是：",
+    "correct_answers": [
+      "櫻花鉤吻鮭"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "台灣特有的櫻鮭亞種通常被稱為「台灣櫻鮭」或「國寶魚」。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "台灣櫻鮭"
+  },
+  {
+    "answer": "臺灣獼猴",
+    "examples": "臺語也稱烏肢猴 ，是舊世界猴獼猴屬的的物種，分布於臺灣本島及澎湖，為常見的臺灣特有種，也是島上除智人外唯一的原生靈長類動物，與亞洲南部的普通獼猴以及日本的日本獼猴有近親關係。\n該動物的名稱是：",
+    "correct_answers": [
+      "臺灣獼猴"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺灣獼猴",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "臺語猴"
+  },
+  {
+    "answer": "台灣黑熊",
+    "examples": "是臺灣特有的亞洲黑熊亞種，胸前的V字型白色條紋是亞洲黑熊共有的特徵。\n該動物的名稱是：",
+    "correct_answers": [
+      "台灣黑熊"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺灣黑熊",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "臺灣黑熊"
+  },
+  {
+    "answer": "藍腹鷴",
+    "examples": "俗稱臺灣山雞，為台灣特有種。深藍色的大型雉類。雄性頭頸黑色，羽冠白色有時帶黑斑，後頸及頸側為深藍色，帶悅目的金屬光澤，上背白色，下背及尾上覆羽黑色，並具有寬闊的帶金屬光澤的藍色羽緣。以植物的果實、種子為食，也吃一些無脊椎動物。\n該動物的名稱是：",
+    "correct_answers": [
+      "藍腹鷴"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "臺灣藍鵲",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "臺灣藍鵲。"
+  },
+  {
+    "answer": "台灣藍鵲",
+    "examples": "臺灣特有種鳥類，成鳥的喙和腳呈紅色，虹膜呈金黃色，頭至頸、胸部呈黑色，翅膀末端呈白色，身體其餘部分幾乎皆呈藍色。主要分布在中、低海拔闊葉林裡，除繁殖季外多成群行動，且有非常明顯的保護領域傾向，以及伴隨而來的驅趕行為。\n該動物的名稱是：",
+    "correct_answers": [
+      "台灣藍鵲"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "您所描述的鳥類是臺灣特有種「藍腹鷴」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "臺灣藍鵲"
+  },
+  {
+    "answer": "知本溫泉",
+    "examples": "它位於臺灣臺東縣卑南鄉溫泉村，依地質分類屬於位於中央山脈板岩區的變質岩區溫泉。沿知本溪分布的區域共有三個出露點，分別為知本外溫泉及知本內溫泉，另一個出露點位於晴山東南方的知本溪河床。該景點的名稱是：",
+    "correct_answers": [
+      "知本溫泉"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "知本溫泉。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "知本溫泉"
+  },
+  {
+    "answer": "日月潭",
+    "examples": "它是一個位在臺灣南投縣魚池鄉日月村的半天然淡水湖泊兼水力發電用水庫；該潭是臺灣本島面積第二大的湖泊及第一大半天然湖泊兼發電用水庫。該潭平均水面海拔約736公尺，常態面積約7.93平方公里，最高水深達27公尺。其蘊含自然生態豐富，但其中有非常多是外來種生物。該景點的名稱是：",
+    "correct_answers": [
+      "日月潭"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "日月潭。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "日月潭"
+  },
+  {
+    "answer": "臺灣海峽,台灣海峽",
+    "examples": "介於中國大陸與台灣島之間的海域和海峽，位於東海及南海之間，是西太平洋的一部分，北東—南西走向，長約370公里，北窄南寬，北口寬約200公里，南口寬約410公里，平均寬度180公里，最窄處在台灣側新竹市南寮與福建側平潭海壇島之間，約126公里，以大陸架為主，其水深為70米。為東洋海洋史上貿易路線的重要水道和近代地緣政治戰略要點之一，海域上的島嶼有福建沿海大陸島、澎湖群島、小琉球等。\n該地理的名稱是：",
+    "correct_answers": [
+      "臺灣海峽",
+      "台灣海峽"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "該地理的名稱是台灣海峽。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "台灣海峽"
+  },
+  {
+    "answer": "翠峰湖",
+    "examples": "它是臺灣最大的高山湖泊，位於太平山國家森林遊樂區內，海拔1850公尺，呈葫蘆狀。形成原因至今不明，據說曾遭美軍轟炸。目前為管制進入的生態保育區，遊客僅能自遠處眺望。\n該湖泊的名稱是：",
+    "correct_answers": [
+      "翠峰湖"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "該湖泊的名稱是：九龍池。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "明潭湖"
+  },
+  {
+    "answer": "高屏溪",
+    "examples": "它位於臺灣南部，為中央管河川，長度僅次於濁水溪。主流河長171.00公里，為全台第二長河；流域面積廣達3，256.85平方公里，分佈於南投縣南端、嘉義縣東端、台東縣西端，及高雄市、屏東縣的23個鄉鎮市區，流域面積為全台第一大河。\n該河川的名稱是：",
+    "correct_answers": [
+      "高屏溪"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "它位於臺灣南部，為中央管河川，長度僅次於濁水溪。主流河長171.00公里，為全台第二長河；流域面積廣達3，256.85平方公里，分佈於南投縣南端、嘉義縣東端、台東縣西端，及高雄市、屏東縣的23個鄉鎮市區，流域面積為全台第一大河。\n該河川的名稱是：高屏溪。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該河川的名稱是高屏溪。"
+  },
+  {
+    "answer": "濁水溪",
+    "examples": "古稱螺溪，下游段稱為西螺溪，位於台灣中部，屬於中央管河川，全長約186.6公里，是台灣最長的河川，流域面積達3,156.90平方公里，計畫洪水量為每秒24000立方公尺，流域面積與河口百年洪峰流量皆僅略次於高屏溪居於台灣第二，下游為彰化縣與雲林縣的界河。\n該河川的名稱是：",
+    "correct_answers": [
+      "濁水溪"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "該河川的名稱是：濁水溪。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "螺溪"
+  },
+  {
+    "answer": "龜山島",
+    "examples": "台灣外海、太平洋中的島嶼，位於蘭陽平原東面的太平洋上一座火山島。因外型似浮龜而得名。東西寬3.1公里，南北長1.6公里，面積2.841平方公里，海岸線長9公里，直線距離台灣本島的梗枋漁港約9.1公里，距離烏石港約10公里。行政區隸屬於宜蘭縣頭城鎮龜山里。\n該島嶼的名稱是：",
+    "correct_answers": [
+      "龜山島"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "你所提到的島嶼是「龜山島」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該島嶼的名稱是龜山島。"
+  },
+  {
+    "answer": "琉球嶼",
+    "examples": "是台灣島西南方的一座島，全境屬中華民國屏東縣管轄，為珊瑚礁石灰岩島嶼，面積6.802平方公里，位於屏東縣東港、高屏溪出海口西南方海面約15公里處，島上有許多石灰岩洞穴，全島在大鵬灣國家風景區範圍之內。\n該島嶼的名稱是：",
+    "correct_answers": [
+      "琉球嶼"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "該島嶼的名稱是：潮州灣。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "琉球嶼"
+  },
+  {
+    "answer": "七星山",
+    "examples": "它位於臺灣北部的陽明山國家公園轄區內，行政區為台北市北投區，海拔1,120公尺，是台北市第一高的山岳。它為一複式火山，地理上屬於大屯火山彙，峰項置有一等三角點，山頂視野寬闊，能將整個大台北地區一覽無遺。\n該山岳的名稱是：",
+    "correct_answers": [
+      "七星山"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "該山岳的名稱是陽明山。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "陽明山"
+  },
+  {
+    "answer": "玉山",
+    "examples": "最高峰主峰位於臺灣嘉義縣阿里山鄉中山村、南投縣信義鄉東埔村與高雄市桃源區梅山里交界處，海拔3,952.43±0.045公尺，為台灣最高峰，百岳之首，日治時由明治天皇命名為新高山，為日本最高峰。戰後1947年11月29日臺灣省政府訓令將新高山改稱為現名。為保護它及周邊極為珍貴的自然景觀生態及歷史文化資產，在1985年設立國家公園。在百岳中，代表布農的它與泰雅的雪山、阿美的秀姑巒山、南湖大山、排灣的北大武山合稱「五嶽」，為臺灣最具代表性的五座高山。\n該風景的名稱是：",
+    "correct_answers": [
+      "玉山"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "玉山",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "阿里山"
+  },
+  {
+    "answer": "高雄85大樓",
+    "examples": "位於高雄市苓雅區，緊鄰著高雄港和新光碼頭，是85層樓高的摩天大樓，結構高度為347.5公尺，加上天線為378公尺，目前為高雄第一高樓、台灣第二高的摩天大樓。\n該建築的名稱是：",
+    "correct_answers": [
+      "高雄85大樓"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "該建築的名稱是：高雄85大樓。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該建築的名稱是85大樓。"
+  },
+  {
+    "answer": "林本源園邸",
+    "examples": "它位於新北市板橋區，為板橋林本源家族興建的房舍，仿蘇州留園設計，是目前臺灣僅存最完整的園林建築。該居可追溯至1847年，當時為林本源家族北上屯租的租館，後經林國華、林國芳兩兄弟擴建，成為林本源家族之居所。庭園部分包含來青閣、月波水榭、定靜堂等多處房舍與人造山水。\n該建築的名稱是：",
+    "correct_answers": [
+      "林本源園邸"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "林家花園",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "林本源園林"
+  },
+  {
+    "answer": "台北101",
+    "examples": "一座位於臺灣臺北市信義區的超高層摩天大樓，樓高509.2公尺，地上101層、地下5層。當前為台灣第一高樓、以及唯一一棟高度超過500公尺、樓層超過100層的建築物，曾於2004年12月1日至2010年1月7日間擁有世界第一高樓的紀錄。\n該建築的名稱是：",
+    "correct_answers": [
+      "台北101"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "該建築的名稱是台北101。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "台北101"
+  },
+  {
+    "answer": "國立故宮博物院,故宮博物院,故宮,臺灣故宮,台灣故宮",
+    "examples": "為臺灣最具規模的博物館以及臺灣八景之一，也是古代中國藝術史與漢學研究機構。典藏為數近70萬件文物與藝術作品，大部分是原先國立北平故宮博物院、國立中央博物院籌備處和國立北平圖書館等機構所藏來自紫禁城、盛京行宮、避暑山莊、頤和園、靜宜園和國子監等處皇家舊藏；另有部分是編列預算購置，接收自第二次世界大戰結束日本歸還部分文物，以及透過各界捐贈和徵集而來。\n該建築的名稱是：",
+    "correct_answers": [
+      "國立故宮博物院",
+      "故宮博物院",
+      "故宮",
+      "臺灣故宮",
+      "台灣故宮"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺北國立故宮博物院",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該建築的名稱是故宮博物院。"
+  },
+  {
+    "answer": "熱蘭遮城,安平古堡",
+    "examples": "一座位於臺灣臺南市安平區的一個城郭遺址。於1623年10月由荷蘭東印度公司建立，1624年3月拆毀，8月重建，是臺灣最早的要塞建築。自建城以來，曾是荷蘭人統治臺灣的中樞。此外，該城郭遺址於黃昏時與落日互相煇映之景「安平夕照」。在1953年曾獲臺灣省政府選為臺灣八景之一。\n該建築的名稱是：",
+    "correct_answers": [
+      "熱蘭遮城",
+      "安平古堡"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "安平古堡",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "安平古堡"
+  },
+  {
+    "answer": "中正紀念堂",
+    "examples": "位於中華民國臺北市中正區的國家紀念建築，是中華民國政府為紀念已故前總統蔣中正而興建，落成以來即成為臺北重要地標與觀光景點之一。園區廣場前方兩廳院稱為「藝文廣場」，廣場南北側另建有國家戲劇院以及國家音樂廳，合稱「國家兩廳院」，由國家表演藝術中心管理。\n該建築的名稱是：",
+    "correct_answers": [
+      "中正紀念堂"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺北中正紀念堂",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "中正紀念堂"
+  },
+  {
+    "answer": "艋舺龍山寺,萬華龍山寺",
+    "examples": "位於臺灣艋舺（今臺北市萬華區）富民里的觀音寺，為清治時期臺北城泉州三邑人的信仰中心，近代成為外國旅客觀光景點，今建築列為國定古蹟。正殿除觀世音菩薩外，還有文殊菩薩、普賢菩薩、十八羅漢、伽藍菩薩、韋馱菩薩、釋迦牟尼佛苦行像。前殿有三寶佛塑像，後殿有天上聖母殿、文昌帝君殿、關聖帝君殿，一旁還有華佗廳、月老廳、太歲廳等。\n該建築的名稱是：",
+    "correct_answers": [
+      "艋舺龍山寺",
+      "萬華龍山寺"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "觀音寺",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "觀音寺"
+  },
+  {
+    "answer": "國立公共資訊圖書館",
+    "examples": "它是中華民國三所國立圖書館之一，位於臺灣臺中市南區，有著輔導地方公共圖書館的任務。此外，該館還設有2座分館。該館的前身為1923年成立的臺中州立圖書館，並在之後歷經3次遷館、4次改名及多次改隸。\n該圖書館的名稱是：",
+    "correct_answers": [
+      "國立公共資訊圖書館"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "國立公共資訊圖書館",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "國立中央圖書館臺中分館"
+  },
+  {
+    "answer": "大甲鎮瀾宮",
+    "examples": "它是一座位在臺灣臺中市大甲區的媽祖廟。該廟是臺灣台灣媽祖信仰的代表廟宇之一。每年的大甲媽祖遶境進香現為臺灣民間信仰中受矚目的宗教盛事之一，並被列為中華民國無形文化資產民俗類重要民俗之一。此外，該廟曾前往湄洲媽祖祖廟謁祖進香。它的名稱是：",
+    "correct_answers": [
+      "大甲鎮瀾宮"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "大甲鎮瀾宮",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "大甲媽祖廟"
+  },
+  {
+    "answer": "圓山大飯店",
+    "examples": "是位於臺灣臺北市中山區劍潭山的旅館，成立於第二次世界大戰後，早年為臺灣首屈一指的大型國際性飯店。目前所見的中國宮殿風格建築於1973年落成，是臺北地標之一。飯店屋顶使用歇山式。飯店的建築上採用相當多的龍形雕刻，故有人稱此飯店為「龍宮」；除採用龍形之外，亦有石獅、梅花等中國建築常用的圖案。\n該建築的名稱是：",
+    "correct_answers": [
+      "圓山大飯店"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "該建築的名稱是：圓山大飯店。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "圓山大飯店"
+  },
+  {
+    "answer": "林懷民",
+    "examples": "臺灣第一個現代舞劇團「雲門舞集」的創辦人與藝術總監。2006年獲選為Discovery頻道《台灣人物誌》的6名主角之1。\n他的名字是：",
+    "correct_answers": [
+      "林懷民"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "林懷民",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "林懷民"
+  },
+  {
+    "answer": "李泰祥",
+    "examples": "一生致力將古典音樂通俗化、將中國民歌重新賦予現代化編曲。他的創作編曲包括〈橄欖樹〉、〈告別〉等。他的嚴肅音樂作品則包括第一、第二號《弦樂四重奏》、《太虛吟》、鋼琴五重奏《氣、斷、流》、《生民》、《幻境三章》、《山和田》客家風組曲、《台灣素描》、《狩獵》等。大型劇樂作品包括清唱劇《大神祭》、歌劇《大風起兮》，以及為雲門舞集創造的舞劇音樂等。他的名字是：",
+    "correct_answers": [
+      "李泰祥"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "錢南章",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "胡德夫"
+  },
+  {
+    "answer": "侯孝賢",
+    "examples": "臺灣電影導演，其電影在國內外各大重要影展獲得重大獎項，為台灣新電影代表人物之一。曾榮獲三屆金馬獎最佳導演獎，1989年的《悲情城市》獲得第46屆威尼斯影展金獅獎，1993年憑藉《戲夢人生》獲得第46屆坎城影展評審團獎。2015年以《刺客聶隱娘》獲得第68屆坎城影展最佳導演獎及第52屆金馬獎最佳導演獎與金馬獎最佳劇情片獎。2020年獲得第57屆金馬獎終身成就獎。其喜愛使用長鏡頭、空鏡頭與固定鏡位，讓人物直接在鏡頭中說故事，是他電影的一大特色。目前是臺灣電影文化協會榮譽理事長。他的名字是：",
+    "correct_answers": [
+      "侯孝賢"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "你所提到的電影導演是：侯孝賢。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "侯孝賢。"
+  },
+  {
+    "answer": "李安",
+    "examples": "臺灣導演，1999年執導的《臥虎藏龍》獲得第73屆奧斯卡最佳外語片獎及三個技術獎項。2006年和2013年則分別以《斷背山》和《少年Pi的奇幻漂流》獲得第78屆奧斯卡金像獎與第85屆奧斯卡金像獎「最佳導演獎」，是第一位獲得該獎項的亞洲導演，也是至今唯一兩度獲得該獎項的亞洲導演。\n他的名字是：",
+    "correct_answers": [
+      "李安"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "李安",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "李安"
+  },
+  {
+    "answer": "白先勇",
+    "examples": "知名文學家、劇作家等。他的代表作有小說集《臺北人》、《紐約客》，長篇小說《孽子》等，散文《樹猶如此》等。他也致力於崑曲文化的保存與推廣。晚年先後編寫了數部父親白崇禧的傳記和關於紅樓夢的導讀：細說紅樓夢。\n他的名字是：",
+    "correct_answers": [
+      "白先勇"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "沈從文",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "林語堂"
+  },
+  {
+    "answer": "張愛玲",
+    "examples": "她原名張瑛，筆名梁京等，是出身上海、後來長年定居於美國的散文家、小說家、劇本作家及劇本評論家。著名作品有《傾城之戀》、《半生缘》、《金鎖記》。她的名字是：",
+    "correct_answers": [
+      "張愛玲"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "張愛玲",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "張愛玲"
+  },
+  {
+    "answer": "李遠哲",
+    "examples": "臺灣化學家，1986年獲得諾貝爾化學獎，是第一位出生及成長於臺灣的諾貝爾獎得主。\n他的名字是：",
+    "correct_answers": [
+      "李遠哲"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "李遠哲",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "李遠哲"
+  },
+  {
+    "answer": "孫越",
+    "examples": "臺灣男演員、中華民國陸軍裝甲兵、中華民國總統府國策顧問、終身志願工作者，籍貫浙江省餘姚縣。曾參與多部電影的演出。他主持公共電視節目《孫叔叔說故事》而被稱為「孫叔叔」。1989年宣佈退出商業演出，全力投入慈善活動，只從事義務性、公益性演出，包括節目主持、宣導廣告等。第20屆金馬影帝。代表作品有《揚子江風雲》、《搭錯車》、《群龍戲鳳》等。他的名字是：",
+    "correct_answers": [
+      "孫越"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "您所提到的人物是臺灣演員孫越。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "孫越"
+  },
+  {
+    "answer": "吳清友",
+    "examples": "臺灣臺南市將軍區人，以經營餐旅廚房設備業起家。他是誠品書店創辦人。\n他的名字是：",
+    "correct_answers": [
+      "吳清友"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "吳清友",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "吳清友"
+  },
+  {
+    "answer": "戴資穎",
+    "examples": "臺灣女子羽毛球運動員，專精單打，效力於合作金庫羽球隊，從2009年開始代表中華台北出戰國際賽。她的球路多變且步伐輕快，擅於使用假動作並配合細膩的網前手法打亂對手節奏而得分，並憑藉其優異體能執行四方球拉吊突擊戰術，使對手因疲於奔命體力下降而失誤丟分，也可在處於被動時因其優異的反拍擺脫能力奪回主動而致勝。她的名字是：",
+    "correct_answers": [
+      "戴資穎"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "你所指的運動員是「世界球后」戴資穎。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "戴資穎"
+  },
+  {
+    "answer": "黑白切",
+    "examples": "它的名稱黑白一詞取自臺語「烏白」，意指「隨意」，是指顧客在沒有明確想吃的菜色和不知曉店家有哪些好吃的小菜時，在告知預算或人數的前提下，請店家隨意切些招牌菜的吃法。這種可以快速端上桌並能完整利用食材的料理，很受消費者青睞，在電影、電視中或是在夜市、路邊攤販、小吃店都頻頻出現。這項處處可見的小吃成為了台灣的飲食文化一環。\n它的名稱是：",
+    "correct_answers": [
+      "黑白切"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "黑白切",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "黑白切"
+  },
+  {
+    "answer": "蚵仔煎",
+    "examples": "是一道以新鮮蚵仔肉裹以番薯粉煎炸而成的海鮮食品。\n它的名稱是：",
+    "correct_answers": [
+      "蚵仔煎"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "蚵仔煎",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "蚵仔煎"
+  },
+  {
+    "answer": "鳳梨酥",
+    "examples": "臺灣的傳統糕點，源自龍鳳大餅之甜味鳳餅，以及雙餡料（鳳梨、冬瓜）大餅鴛鴦餅的習俗，以西式曲奇餅酥鬆餅皮發展而成的台式點心。 其主要原料為麵粉、奶油、糖、蛋、冬瓜醬（也可用純鳳梨或冬瓜混合鳳梨製作）。外皮酥、內餡軟。該食物的名稱是：",
+    "correct_answers": [
+      "鳳梨酥"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "你所描述的食物稱為\"鳳梨酥\"。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "鳳梨酥。"
+  },
+  {
+    "answer": "臭豆腐",
+    "examples": "由豆腐發酵製作而來，是臺灣、長沙、南京、紹興等地的小吃之一，並流傳世界其它地方，但各地的製作方式、食用方法均有相當大的差異。屬於高鈉食品，但富含發酵食品中普遍存在的維生素B12，另外含有必須胺基酸離胺酸（lysine），應避免與還原醣共同加熱，以免產生糖化終產物等致癌物。\n該食物的名稱是：",
+    "correct_answers": [
+      "臭豆腐"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "豆腐",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "豆腐乳"
+  },
+  {
+    "answer": "珍珠奶茶",
+    "examples": "是1980年代起源於臺灣的茶類飲料，為臺灣泡沫紅茶、粉圓茶飲文化中的分支，將粉圓加入奶茶中，為臺灣最具代表性的手搖飲料之一，並從臺灣流行至世界各地。\n該食物的名稱是：",
+    "correct_answers": [
+      "珍珠奶茶"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "你要找的食物是「粉圓」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "珍珠奶茶"
+  },
+  {
+    "answer": "滷肉飯,肉臊飯",
+    "examples": "在臺灣被視為極具台灣特色的民眾小吃，在全臺各地都有店家販售。在北臺灣為一種淋上含有豬皮的滷肥肉切丁及醬油滷汁的白飯菜餚。在南台灣，通常是以肥瘦一定比例的豬絞肉滷製，但北台灣通常用含有煮熟碎豬肉或炒香肉臊（豬絞肉）及醬油滷汁，有時醬汁裡亦會有香菇丁等的成份在內，兩者的口感和口味略有不同。\n該食物的名稱是：",
+    "correct_answers": [
+      "滷肉飯",
+      "肉臊飯"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺灣的民眾小吃，滷肉飯",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "滷肉飯"
+  },
+  {
+    "answer": "牛肉麵,臺灣牛肉麵",
+    "examples": "一道臺灣常見的麵食，以燉煮過的牛肉為主要配料之湯麵。戰後中華民國政府遷台後，渡海來台的外省老兵融合家鄉風味與臺灣在地元素製成。\n該食物的名稱是：",
+    "correct_answers": [
+      "牛肉麵",
+      "臺灣牛肉麵"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "你所描述的食物是「牛肉麵」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "牛肉麵"
+  },
+  {
+    "answer": "台灣啤酒,台啤",
+    "examples": "由財政部100%持股的公營事業台灣菸酒股份有限公司所發售的啤酒品牌，為台灣最受歡迎的啤酒品牌之一，飲用族群包含上班族、青年等。\n該飲品的名稱是：",
+    "correct_answers": [
+      "台灣啤酒",
+      "台啤"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "由財政部100%持股的公營事業台灣菸酒股份有限公司所發售的啤酒品牌，為台灣最受歡迎的啤酒品牌之一，飲用族群包含上班族、青年等，該飲品的名稱為「台灣啤酒」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "台灣啤酒"
+  },
+  {
+    "answer": "小籠包",
+    "examples": "是一種誕生於中國江南地區的著名點心，多處地方亦盛行，例如廣東、香港、台灣，以“體小、餡大、汁多、味鮮、皮薄、形美”而著稱。台灣鼎泰豐的招牌點心之一。該點心的名稱是：",
+    "correct_answers": [
+      "小籠包"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "您所指的該點心是「小籠包」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "小籠包"
+  },
+  {
+    "answer": "蔥油餅",
+    "examples": "一種由蔥花作成的煎餅，在華人社會街頭如臺灣、香港、中國大陸，以及馬來西亞、新加坡等地區常見，常作為早餐或小吃食用。\n該食物的名稱是：",
+    "correct_answers": [
+      "蔥油餅"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "蔥油餅",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "蔥油餅"
+  },
+  {
+    "answer": "中華航空,華航",
+    "examples": "它是中華民國的國家航空公司，也是臺灣最大的民用航空業者，為集團的核心企業。主要轉運樞紐為桃園國際機場，總部則設立於鄰近桃園國際機場的園區。目前以經營國際航線及兩岸航線為主，航點遍佈30個以上的國家及地區。其成立之初亦有經營國內航線，惟考量企業內部資源及營運重心整合，自1998年全部轉由子公司華信航空經營。旗下還擁有低成本航空公司台灣虎航，以搶攻臺灣出發或轉運的國際低成本航空市場。它的名稱是：",
+    "correct_answers": [
+      "中華航空",
+      "華航"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "華航（China Airlines）",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "中華航空"
+  },
+  {
+    "answer": "台灣高鐵,台灣高速鐵路,高鐵",
+    "examples": "它是臺灣的高速鐵路系統，全線縱貫臺灣人口密集的西部走廊，路線全長350公里，最高營運時速300公里，連結臺灣南北成為一日生活圈，往返臺北、高雄南北2大都市間最快只需95分鐘。2007年1月5日通車後，成為臺灣西部重要的長途運輸工具之一，亦為臺灣鐵路運輸工業指標。在2019年，南北雙向每日共有130至162班次，平均日載客量達約184,000人次，週末與連續假期則有每日約300,000人次的水準。目前單日運量最高紀錄為約318,000餘人，落在2019年9月15日。它的名稱是：",
+    "correct_answers": [
+      "台灣高鐵",
+      "台灣高速鐵路",
+      "高鐵"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺灣高速鐵路。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "臺灣高鐵"
+  },
+  {
+    "answer": "聯發科,聯發科技,聯發科技股份有限公司",
+    "examples": "是臺灣一家為無線通訊、高清電視設計系统芯片的無廠半導體公司。公司成立於1997年，總部位於新竹科學園區，在全球設有25個分公司和辦事處，2013年成為全球第四大無晶圓廠IC設計商，2016年成為全球第三大，2020年憑藉天璣系列晶片成為全球市場佔有率最大。該公司的名稱是：",
+    "correct_answers": [
+      "聯發科",
+      "聯發科技",
+      "聯發科技股份有限公司"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "臺灣一家為無線通訊、高清電視設計系统芯片的無廠半導體公司是聯發科技股份有限公司。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "聯發科技股份有限公司（MediaTek Inc.）"
+  },
+  {
+    "answer": "捷安特",
+    "examples": "一家總部位於臺灣臺中的跨國自行車製造商。1972年由劉金標等人成立。該公司的名稱是：",
+    "correct_answers": [
+      "捷安特"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "該公司的名稱是「美利達」。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "美利達"
+  },
+  {
+    "answer": "統一企業",
+    "examples": "一家臺灣食品公司，為台南幫的領頭企業之一，總部位於臺南市永康區的鹽行。成立於1967年，於1987年12月28日在臺灣證券交易所上市，股票代號為1216。該公司的事業版圖橫跨零售、物流、貿易、投資、建設等領域；旗下最大子公司為跨國連鎖超商7-Eleven在臺灣的特許經營商，為臺灣據點數量最多的連鎖零售通路。其亦透過全資子公司經營中華職棒球隊，是中華職棒目前唯一的元老球隊。\n該集團的名稱是：",
+    "correct_answers": [
+      "統一企業"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "正確，該集團的名稱是「統一企業」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該集團的名稱是統一企業集團。"
+  },
+  {
+    "answer": "法鼓山",
+    "examples": "它的創辦人為釋聖嚴法師，他對人類與宗教有不可抹滅的影響力，也曾代表中華民國在聯合國發表宗教大同的世界和平宣言。為中華民國的大乘佛教團體，被民間歸類為台灣佛教四大山頭之一的佛教團體。\n該宗教場所的名稱是：",
+    "correct_answers": [
+      "法鼓山"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "法鼓山",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "法鼓山"
+  },
+  {
+    "answer": "媽祖",
+    "examples": "流行於中國東南沿海的浙江、福建、廣東、海南、膠東，以及台灣、琉球、日本及新加坡等東海和南海周邊地區的海神信仰。該海神信仰的名稱是：",
+    "correct_answers": [
+      "媽祖"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "該海神信仰通常被稱為「海神」或「海洋之神」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "妈祖信仰"
+  },
+  {
+    "answer": "釋證嚴,證嚴法師,證嚴上人",
+    "examples": "他俗名王錦雲，法名證嚴，字慧璋，出家前自號靜思，生於臺灣臺中州大甲郡清水街，臺灣佛教比丘尼，慈濟宗的創辦者，其信徒多稱其為師公上人。自行剃度，1963年於印順導師門下出家，後返回花蓮縣秀林鄉佳民村的普明寺苦修。\n該禪師的名字是：",
+    "correct_answers": [
+      "釋證嚴",
+      "證嚴法師",
+      "證嚴上人"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "證嚴",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "王錦雲"
+  },
+  {
+    "answer": "士林夜市",
+    "examples": "位於臺灣臺北市士林區。範圍以市定古蹟士林公有市場為中心，東至文林路、西至基河路、北至小北街與小西街的三角地帶，是台北市內最大、亦是全台打卡次數最高的夜市地標。曾多次獲選為台灣代表夜市、觀光客來台必去景點首選，揚名國際。2018年，在OpView「台灣十大熱門夜市」調查中，網路聲量第一，成為台灣討論度最高之夜市。它原本是以小吃與攤商而興起，迄今仍以此為主；然而由於它的規模與商機極大，周邊地主紛紛開設店面趕上商機。在攤販並未完全合法的城市裡，它與其他大型固定夜市共同維繫著這一特殊的文化現象，也成為台北市民夜生活的經常去的地方。它的名稱是：",
+    "correct_answers": [
+      "士林夜市"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "士林夜市",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "士林夜市"
+  },
+  {
+    "answer": "統一發票",
+    "examples": "它的定義是指中華民國各種營利機構銷售貨物或提供勞務給消費者後，營業人與買受人雙方分別保存與收執的制式憑證。它的名稱是：",
+    "correct_answers": [
+      "統一發票"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "您所指的制式憑證是統一發票。根據中華民國稅法規定，營業人向買受人銷售貨物或提供勞務時，應開立統一發票作為收",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "發票"
+  },
+  {
+    "answer": "櫃買中心,櫃買,財團法人中華民國證券櫃檯買賣中心,台灣證券櫃檯買賣中心",
+    "examples": "它是承辦台灣證券櫃檯買賣業務的公益性財團法人組織，有「台灣的NASDAQ」之稱。目前上櫃公司約有775檔，興櫃公司約有248檔，創櫃公司約有89檔。它的名稱是：",
+    "correct_answers": [
+      "櫃買中心",
+      "櫃買",
+      "財團法人中華民國證券櫃檯買賣中心",
+      "台灣證券櫃檯買賣中心"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "你所指的組織是「臺灣證券交易所」。",
+    "correctness_chatgpt-0613": false,
+    "chatgpt-0613": "台灣證券交易所"
+  },
+  {
+    "answer": "中央銀行,央行",
+    "examples": "它是中華民國的國家銀行，直屬於行政院，具有部會級地位，肩負穩定國家金融發展、維持物價平穩、維護國幣幣值、管理中華民國外匯存底等重要事務。它的名稱是：",
+    "correct_answers": [
+      "中央銀行",
+      "央行"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "中華民國的國家銀行是央行。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "中華民國中央銀行"
+  },
+  {
+    "answer": "新臺幣",
+    "examples": "於1949年6月15日起發行流通，是中華民國現行的法定貨幣。當時定位為限定臺灣使用的區域貨幣，今日則在整個中華民國有效統治區域均可流通使用。它的名稱是：",
+    "correct_answers": [
+      "新臺幣"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "新台幣（New Taiwan Dollar）",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "新台幣"
+  },
+  {
+    "answer": "淡水信義線",
+    "examples": "路線代號為R，路線代表色為紅色，是台北捷運一條營運中的高運量路線及台北捷運唯一一條有高架路段與平面路段的高運量路線。該捷運路線的名稱是：",
+    "correct_answers": [
+      "淡水信義線"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "路線代號為R，路線代表色為紅色，是台北捷運一條營運中的高運量路線及台北捷運唯一一條有高架路段與平面路段的高運量路線。該捷�",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "該捷運路線的名稱是「淡水信義線」。"
+  },
+  {
+    "answer": "MP魔幻力量,魔幻力量",
+    "examples": "臺灣流行樂團，為台灣首組雙主唱男子樂團。它由主唱廷廷、主唱嘎嘎、DJ鼓鼓、吉他手雷堡、貝斯手兼團長凱開、鼓手阿翔組成。其團名取自第一首單曲〈私奔到月球2008 〉詞中的「眼神的Magic Power」併稱）。粉絲名為MPF 。該樂團的名稱是：",
+    "correct_answers": [
+      "MP魔幻力量",
+      "魔幻力量"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "魔幻力量（Magic Power）。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "Magic Power"
+  },
+  {
+    "answer": "五月天",
+    "examples": "它是於1999年出道的臺灣樂團，由主唱阿信、團長暨吉他手怪獸、吉他手石頭、貝斯手瑪莎和鼓手冠佑共五人組成；除冠佑外，其餘四人皆畢業自臺北市國立師大附中。樂團前身為「So Band」樂團，於1997年3月29日改為現名，其名稱取自瑪莎在BBS的代號 「MayDay」。它的名稱是：",
+    "correct_answers": [
+      "五月天"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "五月天。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "五月天。"
+  },
+  {
+    "answer": "草根詩社",
+    "examples": "它於1975年5月在台北成立，並且創《草根詩刊》。該社成員有張香華、羅青、李男、詹澈、邱豐松、白靈等人，羅青是社長。它的創社宗旨具體呈現在〈草根宣言〉(刊載在《草根詩刊》創刊號)裡，內容為：「對過去，我們尊敬而不迷戀，對未來，我們謹慎而有信心。我們擁抱傳統，但不排斥西方，過去擁抱與過分的排斥，都是變態。我們的態度是了解第一，然後吸收、消化、創造。創造是我們最終的目的。同時，我們也知道要有專一狂熱的精神，創造方能有成，我們願意把這份精神獻給我們所能擁有的土地：台灣。」此外，該詩社相當重視詩的藝術性與普及性。它的名稱是：",
+    "correct_answers": [
+      "草根詩社"
+    ],
+    "correctness_Taiwan_llama_v1.0": false,
+    "Taiwan_llama_v1.0": "詩擊",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "草根詩社"
+  },
+  {
+    "answer": "十大建設",
+    "examples": "它是指中華民國政府於1974年至1979年間，時任行政院院長蔣經國為改善臺灣的基礎設施及產業升級所提出的一系列重大基礎建設工程，總共分為十大項目，其中有六項是交通運輸建設、三項是重工業建設、一項為能源項目建設，總花費在當時估計達到了新臺幣二千億至三千億元之間，這些計畫帶領中華民國走出能源危機，加速了當時的經濟及社會的發展，並對臺灣經濟起飛產生巨大的貢獻。它的名稱是：",
+    "correct_answers": [
+      "十大建設"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "是的，你所描述的就是「十大建設」。",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "十大建設。"
+  },
+  {
+    "answer": "《霹靂布袋戲》,霹靂布袋戲",
+    "examples": "它是台灣霹靂國際多媒體於1988年創立，自電視劇《霹靂金光》開始的一系列布袋戲電視劇作品或其跨媒體製作系列，以每齣劇集名稱前皆冠以「霹靂」兩字而得名。\n它的名稱是：",
+    "correct_answers": [
+      "《霹靂布袋戲》",
+      "霹靂布袋戲"
+    ],
+    "correctness_Taiwan_llama_v1.0": true,
+    "Taiwan_llama_v1.0": "霹靂布袋戲",
+    "correctness_chatgpt-0613": true,
+    "chatgpt-0613": "霹靂布袋戲"
+  }
+]
