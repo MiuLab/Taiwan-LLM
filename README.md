@@ -82,6 +82,19 @@ It includes:
 * Pretraining Phase: Pretrained on a vast corpus of over 5 billion tokens, extracted from common crawl in Traditional Mandarin.
 * Fine-tuning Phase: Further instruction-tuned on over 490k multi-turn conversational data to enable more instruction-following and context-aware responses.
 
+## Evaluating "Taiwan LLaMa" on TTQA (Taiwan Trivia Question Answering)
+
+[Link to the Origianl TTQA dataset from MediaTek Research](https://github.com/mtkresearch/MR-Models/tree/main/datasets/TTQA)
+
+[Link to the Taiwan LLaMa and ChatGPT Prediction on  TTQA](https://github.com/MiuLab/Taiwan-LLaMa/blob/main/evaluation/TTQA_1.0.0_tw_llama_v1.0.json)
+
+Taiwan LLaMa is being benchmarked on the TTQA dataset, a evaluation set for question answering models specific to Taiwan-related trivia.
+
+As of the current stage, Taiwan LLaMa has achieved a score identical to 75% (48 out of 64) of the performance observed with ChatGPT.
+
+Further comparisons and in-depth analysis are in progress.
+
+
 ## Generic Capabilities on Vicuna Benchmark 
 
 The data is translated into traditional mandarin for evaluating the general capability.
