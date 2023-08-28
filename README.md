@@ -118,7 +118,7 @@ The scores are calculated with ChatGPT as the baseline, represented as 100%. The
 ## How to deploy the model on my own machine?
 We recommend hosting models with [🤗 Text Generation Inference](https://github.com/huggingface/text-generation-inference). Please see their [license](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) for details on usage and limitations.
 ```bash
-bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
+bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa-v1.0" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
 ```
 
 Prompt format follows vicuna-v1.1 template:
