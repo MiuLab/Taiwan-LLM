@@ -133,6 +133,47 @@ conda activate taiwan-llama
 pip install -r requirements.txt
 ```
 
+## 常見問顔
+
+### 網頁Demo與程式碼執行結果有落差
+
+可以參考這個 [#19 (comment)](https://github.com/your_repository/issues/19#issuecomment-YourCommentID)。
+
+### 能否商用化？
+
+關於模型能不能商用，我建議您自行尋求法律意見。
+
+模型作者 (Meta 與我) 都願意開放商用，但是『可以商用的模型”訓練在“有著作權法保護的資料上”，是否可以商用』需要您的判斷。
+
+台灣沒有相關法案保護模型訓練在有著作權的資料上，但就我的理解，我們模型雖訓練在著作權資料上，但並沒有抄襲著作權人的意思表示，所以模型是可以商用的。
+
+以上是我諮詢律師的結論，為求謹慎還請您尋求更專業的法律意見。
+
+### 請問訓練此模型時使用的機器規格
+
+Pretraining: 8 x A100 80G for 2 weeks  
+Instruction finetuning: 8 x H100 for 12 hrs
+
+#### English Version
+
+### Web Demo and Code Execution Results Differ
+
+Refer to this [#19 (comment)](https://github.com/your_repository/issues/19#issuecomment-YourCommentID).
+
+### Can it be Commercialized?
+
+For questions on commercial use, consult legal advice.
+
+Both the model authors (Meta and I) are open to commercial use. However, whether a "commercially usable model" trained on "copyrighted data" can be used commercially is for you to decide.
+
+To my understanding, although the model is trained on copyrighted data, it does not plagiarize. Therefore, it can be commercialized.
+
+This is based on legal advice; for caution, consult a legal expert.
+
+### Machine Specifications for Training This Model
+
+Pretraining: 8 x A100 80G for 2 weeks  
+Instruction finetuning: 8 x H100 for 12 hrs
 
 ## Citations
 If you use our code, data, or models in your research, please cite this repository. You can use the following BibTeX entry:
