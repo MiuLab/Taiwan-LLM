@@ -66,13 +66,14 @@ We provide a number of model checkpoints that we trained. Please find them on Hu
 
 ## Data
 
-Here are some quick links to the datasets that we used to train the models:
+經過專業律師的法律建議，我們暫時將有版權疑慮的資料集下架。我們會積極尋求更多的法律意見，希望能儘快重新上架這些訓練資料集。
+
+Due to legal concerns raised by our legal advisors regarding copyrighted material, we've temporarily removed the datasets. We're actively seeking further opinions and hope to make the training datasets available again soon.
 
 | **Dataset**                     | **Link**                                                                                                                      | 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
-| Traditional Mandarin Pretraining | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
-
+| ~~**Instruction-tuning**~~      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
+| ~~Traditional Mandarin Pretraining~~ | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 ## Architecture
 Taiwan-LLaMa is based on LLaMa 2, leveraging transformer architecture, <a href="https://github.com/Dao-AILab/flash-attention" target="_blank">flash attention 2</a>, and bfloat16.
