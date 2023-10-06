@@ -66,13 +66,11 @@ We provide a number of model checkpoints that we trained. Please find them on Hu
 
 ## Data
 
-經過專業律師的法律建議，我們暫時將有版權疑慮的資料集下架。我們會積極尋求更多的法律意見，希望能儘快重新上架這些訓練資料集。
-
-Due to legal concerns raised by our legal advisors regarding copyrighted material, we've temporarily removed the datasets. We're actively seeking further opinions and hope to make the training datasets available again soon.
+Due to legal concerns raised by our legal advisors regarding copyrighted material, we have temporarily removed the datasets. We are actively seeking further opinions and hope to make the training datasets available again soon. In the meantime, researchers can use the C4 corpus and filter it to include only Traditional Chinese segments to reproduce the v1.0 results.
 
 | **Dataset**                     | **Link**                                                                                                                      | 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| ~~**Instruction-tuning**~~      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
+| **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
 | ~~Traditional Mandarin Pretraining~~ | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 ## Architecture
