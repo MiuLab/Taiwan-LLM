@@ -132,11 +132,11 @@ conda activate taiwan-llama
 pip install -r requirements.txt
 ```
 
-## 常見問顔
+## 常見問題
 
 ### 網頁Demo與程式碼執行結果有落差
 
-可以參考這個 [#19 (comment)](https://github.com/your_repository/issues/19#issuecomment-YourCommentID)。
+可以參考這個 [#19 (comment)](https://github.com/MiuLab/Taiwan-LLaMa/issues/19#issuecomment-1687281286)。
 
 ### 能否商用化？
 
@@ -157,7 +157,7 @@ Instruction finetuning: 8 x H100 for 12 hrs
 
 ### Web Demo and Code Execution Results Differ
 
-Refer to this [#19 (comment)](https://github.com/your_repository/issues/19#issuecomment-YourCommentID).
+Refer to this [#19 (comment)](https://github.com/MiuLab/Taiwan-LLaMa/issues/19#issuecomment-1687281286).
 
 ### Can it be Commercialized?
 
