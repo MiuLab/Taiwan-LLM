@@ -120,7 +120,13 @@ We recommend hosting models with [🤗 Text Generation Inference](https://github
 bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa-v1.0" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
 ```
 
-Prompt format follows vicuna-v1.1 template:
+Taiwan LLm v2 Prompt Template:
+Version 2 is more robust to different system prompt or none.
+```
+你是人工智慧助理，以下是用戶和人工智能助理之間的對話。你要對用戶的問題提供有用、安全、詳細和禮貌的回答。USER: {user} ASSISTANT:
+```
+
+Taiwan LLm v1 Prompt Template:
 ```
 A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {user} ASSISTANT:
 ```
