@@ -1,10 +1,10 @@
-# Language Models for Taiwanese Culture 
+# Taiwan-LLM: Language Models for Taiwanese Culture 
 
 
 <p align="center">
 ✍️ <a href="https://chat.twllm.com/" target="_blank">Online Demo</a>  
 •
-🤗 <a href="https://huggingface.co/yentinglin" target="_blank">HF Repo</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/pdf/2305.13711.pdf" target="_blank">[Paper Coming Soon]</a>  
+🤗 <a href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07" target="_blank">Model Collection</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/pdf/2305.13711.pdf" target="_blank">[Paper Coming Soon]</a>  
 • 👨️ <a href="https://yentingl.com/" target="_blank">Yen-Ting Lin</a> 
     <br/><br/>
     <img src="https://www.csie.ntu.edu.tw/~miulab/taiwan-llama/logo-v2.png" width="100"> <br/>
@@ -16,16 +16,24 @@
    
 </p>
 
-
+<!-- Announcement Section -->
+<p align="center">
+    <strong>🎉🎉🎉Taiwan-LLM v2:</strong> We are excited to release Taiwan-LLM v2, including the 7B and 13B models, now available on <a href="https://twllm.com" target="_blank">twllm.com</a> and on our <a href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07" target="_blank">HuggingFace collection</a>🚀
+</p>
 
 
 ## Overview
-Taiwan-LLaMa is a full parameter fine-tuned model based on LLaMa 2 for Traditional Mandarin applications.
+Taiwan-LLM is a full parameter fine-tuned model based on Meta/LLaMa-2 for Traditional Mandarin applications.
 
-**Taiwan-LLaMa v1.0** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional mandarin.
+**Taiwan-LLM v2.0 13B** pretrained on over 30 billion tokens and instruction-tuned on over 1 million instruction-following conversations both in traditional mandarin.
+
+**Taiwan-LLM v2.0 7B** pretrained on over 30 billion tokens and instruction-tuned on over 1 million instruction-following conversations both in traditional mandarin.
+
+**Taiwan-LLM v1.0 13B** pretrained on over 5 billion tokens and instruction-tuned on over 490k conversations both in traditional mandarin.
+
 
 ## Demo
-A live demonstration of the model can be accessed at [Hugging Face Spaces](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
+A live demonstration of the model can be accessed at [TWLLM.com](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
 
 ## Key Features
 
@@ -39,8 +47,11 @@ A live demonstration of the model can be accessed at [Hugging Face Spaces](https
 
 
 ## Work in progress
-- [ ] **Improved pretraining**: A refined pretraining process (e.g. more data from Taiwan, training strategies) is under development, aiming to enhance model performance for better Taiwanese culture.
-- [ ] **Extend max length**: Utilizing the Rope mechanism as described in [the paper](https://arxiv.org/abs/2104.09864), the model's length will be extended from 4k to 8k.
+- [x] **Improved pretraining**: A refined pretraining process (e.g. more data from Taiwan, training strategies) is under development, aiming to enhance model performance for better Taiwanese culture.
+- [x] **Extended Length**: Our demo on twllm.com is served in 8k context length.
+- [ ] **3B / 1B model**: In the pipeline are scaled-down versions of the Taiwan-LLM with 3 billion and 1 billion parameters, aimed at providing more accessible options for researchers and developers with limited computational resources.
+- [ ] **Vision**: We are exploring multi-modal integration into Taiwan-LLM, enabling the model to understand content that combines text and image.
+- [ ] **Mixture of Experts**: Planning to incorporate a Mixture of Experts architecture to improve the model's efficiency and capacity.
 
 
 ## Taiwanese Culture Examples
@@ -56,13 +67,13 @@ A live demonstration of the model can be accessed at [Hugging Face Spaces](https
 
 ## Model
 
-We provide a number of model checkpoints that we trained. Please find them on Hugging Face [here](https://huggingface.co/models?search=taiwan-llama). Here are some quick links to the checkpoints that are finetuned from LLaMa 2:
+We provide a number of model checkpoints that we trained. Please find them on Hugging Face [here](https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07). Here are some quick links to the checkpoints that are finetuned from LLaMa 2:
 
 | **Model**                                              | **13B**                                                                                                                       | 
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Taiwan-LLaMa v1.0** (_better for Taiwanese Culture_)   | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a>  | 
-| Taiwan-LLaMa v0.9 (partial instruction set)            | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.9" target="_blank">yentinglin/Taiwan-LLaMa-v0.9</a>  | 
-| Taiwan-LLaMa v0.0 (no Traditional Mandarin pretraining) | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v0.0" target="_blank">yentinglin/Taiwan-LLaMa-v0.0</a>  | 
+| **Taiwan-LLaMa v2.0 13B** (_better for Taiwanese Culture_)   | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLM-13B-v2.0-chat" target="_blank">yentinglin/Taiwan-LLM-13B-v2.0-chat</a>  | 
+| **Taiwan-LLaMa v2.0 7B** (_better for Taiwanese Culture_)   | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLM-7B-v2.0.1-chat" target="_blank">yentinglin/Taiwan-LLM-7B-v2.0.1-chat</a>  | 
+| Taiwan-LLaMa v1.0 13B | 🤗 <a href="https://huggingface.co/yentinglin/Taiwan-LLaMa-v1.0" target="_blank">yentinglin/Taiwan-LLaMa-v1.0</a>  | 
 
 ## Data
 
