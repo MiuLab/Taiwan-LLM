@@ -92,37 +92,8 @@ It includes:
 * Pretraining Phase: Pretrained on a vast corpus of over 5 billion tokens, extracted from common crawl in Traditional Mandarin.
 * Fine-tuning Phase: Further instruction-tuned on over 490k multi-turn conversational data to enable more instruction-following and context-aware responses.
 
-## Evaluating "Taiwan LLaMa" on TTQA (Taiwan Trivia Question Answering)
-
-[Link to the Origianl TTQA dataset from MediaTek Research](https://github.com/mtkresearch/MR-Models/tree/main/datasets/TTQA)
-
-[Link to the Taiwan LLaMa and ChatGPT Prediction on  TTQA](https://github.com/MiuLab/Taiwan-LLaMa/blob/main/evaluation/TTQA_1.0.0_tw_llama_v1.0.json)
-
-Taiwan LLaMa is being benchmarked on the TTQA dataset, a evaluation set for question answering models specific to Taiwan-related trivia.
-
-As of the current stage, Taiwan LLaMa has achieved a score identical to 75% (48 out of 64) of the performance observed with ChatGPT. (Both in 0-shot)
-
-Further comparisons and in-depth analysis are in progress.
-
-
-## Generic Capabilities on Vicuna Benchmark 
-
-The data is translated into traditional mandarin for evaluating the general capability.
-
-
-<img src="./images/zhtw_vicuna_bench_chatgptbaseline.png" width="700">
-
-The scores are calculated with ChatGPT as the baseline, represented as 100%. The other values show the relative performance of different models compared to ChatGPT.
-
-| Language Model                      | Relative Score (%) |
-|-------------------------------------|--------------------|
-| GPT-4                               | 102.59%            |
-| ChatGPT                             | 100.00%            |
-| **Taiwan-LLaMa v1.0**               | 76.76%             |
-| Claude-Instant-1.2                  | 74.04%             |
-| Llama2_Traditional_Chinese_13b_Chat | 56.21%             |
-
-
+## Evaluating "Taiwan LLM" on TC-Eval
+![image](https://github.com/MiuLab/Taiwan-LLaMa/assets/31605305/abe941ab-66bf-4703-a1a0-d77e538973d2)
 
 
 ## How to deploy the model on my own machine?
