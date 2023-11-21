@@ -33,7 +33,7 @@ Taiwan-LLM is a full parameter fine-tuned model based on Meta/LLaMa-2 for Tradit
 
 
 ## Demo
-A live demonstration of the model can be accessed at [TWLLM.com](https://huggingface.co/spaces/yentinglin/Taiwan-LLaMa2).
+A live demonstration of the model can be accessed at [TWLLM.com](https://twllm.com/).
 
 ## Key Features
 
@@ -41,10 +41,7 @@ A live demonstration of the model can be accessed at [TWLLM.com](https://hugging
 
 2. **Instruction-Tuned**: Further fine-tuned on conversational data to offer context-aware and instruction-following responses.
 
-3. **Performance on Vicuna Benchmark**: Taiwan-LLaMa's relative performance on Vicuna Benchmark is measured against models like GPT-4 and ChatGPT. It's particularly optimized for Taiwanese culture.
-
-4. **Flexible Customization**: Advanced options for controlling the model's behavior like system prompt, temperature, top-p, and top-k are available in the demo.
-
+3. **Performance on TC-Eval**: Taiwan-LLM v2 13B shows a slight edge over ChatGPT-3 and achieves around 92% of ChatGPT-4's performance in zh-tw benchmarks.
 
 ## Work in progress
 - [x] **Improved pretraining**: A refined pretraining process (e.g. more data from Taiwan, training strategies) is under development, aiming to enhance model performance for better Taiwanese culture.
@@ -77,12 +74,9 @@ We provide a number of model checkpoints that we trained. Please find them on Hu
 
 ## Data
 
-Due to legal concerns raised by our legal advisors regarding copyrighted material, we have temporarily removed the datasets. We are actively seeking further opinions and hope to make the training datasets available again soon. In the meantime, researchers can use the C4 corpus and filter it to include only Traditional Chinese segments to reproduce the v1.0 results.
-
 | **Dataset**                     | **Link**                                                                                                                      | 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | **Instruction-tuning**      | 🤗 <a href="https://huggingface.co/datasets/yentinglin/traditional_mandarin_instructions" target="_blank">yentinglin/traditional_mandarin_instructions</a>                                           | 
-| ~~Traditional Mandarin Pretraining~~ | 🤗 <a href="https://huggingface.co/datasets/yentinglin/zh_TW_c4" target="_blank">yentinglin/zh_TW_c4</a>                                   | 
 
 ## Architecture
 Taiwan-LLaMa is based on LLaMa 2, leveraging transformer architecture, <a href="https://github.com/Dao-AILab/flash-attention" target="_blank">flash attention 2</a>, and bfloat16.
@@ -102,7 +96,25 @@ We recommend hosting models with [🤗 Text Generation Inference](https://github
 bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa-v1.0" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
 ```
 
-Taiwan LLm v2 Prompt Template:
+Taiwan LLm  Prompt Template:
+
+**How to properly fomat my prompt?**
+```python
+from transformers import AutoTokenizer
+# system message is optional
+chat = [
+  # {"role": "system", "content": "你講中文"},
+  {"role": "user", "content": "Hello, how are you?"},
+  {"role": "assistant", "content": "I'm doing great. How can I help you today?"},
+  {"role": "user", "content": "I'd like to show off how chat templating works!"},
+]
+# This applies to all Taiwan-LLM series.
+tokenizer = AutoTokenizer.from_pretrained("yentinglin/Taiwan-LLM-7B-v2.0.1-chat")
+prompt_for_generation = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+print(prompt_for_generation)
+```
+
+
 Version 2 is more robust to different system prompt or none.
 ```
 你是人工智慧助理，以下是用戶和人工智能助理之間的對話。你要對用戶的問題提供有用、安全、詳細和禮貌的回答。USER: {user} ASSISTANT:
