@@ -98,7 +98,7 @@ bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa-v1.0" NUM_GPUS DI
 
 Taiwan LLm  Prompt Template:
 
-**How to properly fomat my prompt?**
+**How to properly format my prompt?**
 ```python
 from transformers import AutoTokenizer
 # system message is optional
