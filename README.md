@@ -4,7 +4,7 @@
 <p align="center">
 ✍️ <a href="https://chat.twllm.com/" target="_blank">Online Demo</a>  
 •
-🤗 <a href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07" target="_blank">Model Collection</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://github.com/MiuLab/Taiwan-LLaMa/blob/main/twllm_paper.pdf" target="_blank">Paper</a>  
+🤗 <a href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07" target="_blank">Model Collection</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="[https://github.com/MiuLab/Taiwan-LLaMa/blob/main/twllm_paper.pdf](https://arxiv.org/pdf/2311.17487.pdf)" target="_blank">Paper</a>  
 • 👨️ <a href="https://yentingl.com/" target="_blank">Yen-Ting Lin</a> 
     <br/><br/>
     <img src="https://www.csie.ntu.edu.tw/~miulab/taiwan-llama/logo-v2.png" width="100"> <br/>
