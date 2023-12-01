@@ -178,24 +178,13 @@ Instruction finetuning: 8 x H100 for 12 hrs
 If you use our code, data, or models in your research, please cite this repository. You can use the following BibTeX entry:
 
 ```bibtex
-@inproceedings{lin-chen-2023-llm,
-    title = "{LLM}-Eval: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models",
-    author = "Lin, Yen-Ting  and Chen, Yun-Nung",
-    booktitle = "Proceedings of the 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.nlp4convai-1.5",
-    pages = "47--58"
-}
-
-@misc{taiwanllama,
-    author={Lin, Yen-Ting and Chen, Yun-Nung},
-    title={Language Models for Taiwanese Culture},
-    year={2023},
-    url={https://github.com/MiuLab/Taiwan-LLaMa},
-    note={Code and models available at https://github.com/MiuLab/Taiwan-LLaMa},
+@misc{lin2023taiwan,
+      title={Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model}, 
+      author={Yen-Ting Lin and Yun-Nung Chen},
+      year={2023},
+      eprint={2311.17487},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
