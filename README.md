@@ -91,6 +91,8 @@ It includes:
 
 
 ## How to deploy the model on my own machine?
+
+### Text Generation Inference
 We recommend hosting models with [🤗 Text Generation Inference](https://github.com/huggingface/text-generation-inference). Please see their [license](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) for details on usage and limitations.
 ```bash
 bash run_text_generation_inference.sh "yentinglin/Taiwan-LLaMa-v1.0" NUM_GPUS DIR_TO_SAVE_MODEL PORT MAX_INPUT_LEN MODEL_MAX_LEN
@@ -124,6 +126,29 @@ Taiwan LLm v1 Prompt Template:
 ```
 A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {user} ASSISTANT:
 ```
+
+### Ollama
+
+[Ollama](https://github.com/ollama/ollama) is a local inference framework client for deploying large language models such as Llama 2, Mistral, Llava, etc. with one click. Now we support you to run [Taiwan-LLM-13B-v2.0-chat](https://ollama.com/wangrongsheng/taiwanllm-13b-v2.0-chat) (**INT4 quantization**) and [Taiwan-LLM-7B-v2.1-chat](https://ollama.com/wangrongsheng/taiwanllm-7b-v2.1-chat) (**INT4 quantization**) on Ollama. You can run Taiwan-LLM in a simple way on your local computer.
+
+1. Install Ollama.
+    1. If you use `macOS`, you can download [it](https://ollama.com/download/Ollama-darwin.zip).
+    2. If you use `Windows10`, you can download [it](https://ollama.com/download/OllamaSetup.exe).
+    3. If you use `Linux`, you can use the following command to install.
+```sh
+curl -fsSL https://ollama.com/install.sh | sh
+```
+2. Download and Run Taiwan-LLM
+```sh
+# Download Taiwan-LLM-7B-v2.1-chat
+ollama run wangrongsheng/taiwanllm-7b-v2.1-chat
+
+# or
+# Download Taiwan-LLM-13B-v2.0-chat
+ollama run wangrongsheng/taiwanllm-13b-v2.0-chat
+```
+
+![](./images/ollama_run_demo.png)
 
 ## Setup development environment
 ```bash
