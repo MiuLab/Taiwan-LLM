@@ -1,4 +1,4 @@
-# Taiwan-LLM: Language Models for Taiwanese Culture 
+# TAME (TAiwan Mixture of Experts) <br/>LLM for Taiwanese Culture across Diverse Domains
 
 
 <p align="center">
@@ -7,13 +7,13 @@
 🤗 <a href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07" target="_blank">Model Collection</a> • 🐦 <a href="https://twitter.com/yentinglin56" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/pdf/2311.17487.pdf" target="_blank">Paper</a>  
 • 👨️ <a href="https://yentingl.com/" target="_blank">Yen-Ting Lin</a> 
     <br/><br/>
-    <img src="https://www.csie.ntu.edu.tw/~miulab/taiwan-llama/logo-v2.png" width="100"> <br/>
+    <img src="https://www.csie.ntu.edu.tw/~miulab/taiwan-llama/logo-tame.jpg" width="500"> <br/>
     <a href="https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE">
 <img src="https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg"></a>
     <a href="https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE">
         <img src="https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg"></a>
     <br/>
-   
+Partnership with 和碩聯合科技, 長庚紀念醫院, 長春集團, 欣興電子, 律果, NVIDIA, 科技報橘   
 </p>
 
 <!-- Announcement Section -->
