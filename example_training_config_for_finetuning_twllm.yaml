@@ -1,0 +1,64 @@
+base_model: yentinglin/Llama-3-Taiwan-70B-Instruct
+trust_remote_code: true
+load_in_8bit: false
+load_in_4bit: false
+strict: false
+
+hub_model_id: YOUR_USER_NAME/Llama-3-Taiwan-70B-Instruct-MY_FINETUNING
+hub_strategy: end
+wandb_name: twllm 70b sft
+
+dataset_processes: 16
+datasets:
+  - path: yentinglin/TaiwanChat
+    type: sharegpt
+    conversation: llama3
+chat_template: llama3
+
+dataset_prepared_path: last_run_prepared
+val_set_size: 0
+output_dir: ./output/tw-llm/70b/sft/
+
+save_safetensors: true
+sequence_len: 8192
+sample_packing: true
+pad_to_sequence_len: true
+
+wandb_project: twllm
+wandb_watch:
+wandb_run_id:
+wandb_log_model:
+
+gradient_accumulation_steps: 1
+micro_batch_size: 1
+num_epochs: 3
+optimizer: adamw_8bit
+lr_scheduler: cosine
+learning_rate: 5e-5
+
+train_on_inputs: false
+group_by_length: false
+bf16: auto
+fp16:
+tf32: false
+
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+early_stopping_patience:
+resume_from_checkpoint:
+logging_steps: 1
+xformers_attention:
+flash_attention: true
+
+warmup_steps: 100
+evals_per_epoch: 0
+eval_table_size:
+saves_per_epoch: 1
+save_total_limit: 10
+save_steps:
+debug:
+deepspeed: deepspeed_configs/zero3_bf16.json
+weight_decay: 0.05
+fsdp:
+fsdp_config:
