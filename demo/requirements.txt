@@ -1,2 +1,0 @@
-text-generation==0.6.0
-transformers==4.36.0
