@@ -132,7 +132,7 @@ To run the evaluation, use the [script](https://github.com/adamlin120/needle-hay
 
 # Use Cases
 
-Llama-3-Taiwan-70B can be applied to a wide variety of NLP tasks in Traditional Chinese and English, including:
+Llama-3-Taiwan-70B can be applied to a wide variety of NLP tasks in Traditional Mandarin and English, including:
 
 <details>
 <summary>1. 多輪對話</summary>
@@ -322,4 +322,4 @@ The Taiwan LLM Initiative was started by Yenting Lin (林彥廷) in July 2023.
 - Version 1.0 was released in August 2023.
 - Version 2.0 was released in October 2023, sponsored by Ubitus K.K.
 
-These models are designed to support Traditional Chinese and are optimized for Taiwanese culture and related applications. For more detailed information about our models, including demos, features, and examples, please visit our [Hugging Face collection](https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07).
+These models are designed to support Traditional Mandarin and are optimized for Taiwanese culture and related applications. For more detailed information about our models, including demos, features, and examples, please visit our [Hugging Face collection](https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07).
