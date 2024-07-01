@@ -78,7 +78,7 @@ Checkout [Open TW LLM Leaderboard](https://huggingface.co/spaces/yentinglin/open
 
 | Model                                                                            | [TMLU](https://arxiv.org/pdf/2403.20180) | Taiwan Truthful QA | [Legal Eval](https://huggingface.co/datasets/lianghsun/tw-legal-benchmark-v1) |  [TW MT-Bench](https://huggingface.co/datasets/MediaTek-Research/TCEval-v2) | Long context | Function Calling | [TMMLU+](https://github.com/iKala/ievals) | 
 |---------------------------------------------------------------------------------|--------------|---------------|--------------------|--------------|--------------|-----------------|-----------| 
-|      | 學科知識 | 台灣在地化測試 | 台灣法律考題 |  中文多輪對答 | 長文本支援 | 函數呼叫 |  | 
+|      | 學科知識 | 台灣在地化測試 | 台灣法律考題 |  中文多輪對答 | 長文本支援 | 函式呼叫 |  | 
 | [**yentinglin/Llama-3-Taiwan-70B-Instruct**](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct)     | **74.76%**       |     80.95%          |      68.42%              |      7.54        |    [128k version](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct-128k)          |        ✅         |     67.53%      |
 | [**yentinglin/Llama-3-Taiwan-70B-Instruct-DPO**](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct-DPO)     | 74.60%       |     **81.75%**          |      **70.33%**              |      -       |    -   |        ✅         | - |
 | [**yentinglin/Llama-3-Taiwan-70B-Instruct-128k**](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct)     | 73.01%       |     80.16%          |      63.64%              |   -    |   -  |        ✅         |  -  |
@@ -173,7 +173,7 @@ Assistant: 根據天氣預報，明天台大天氣為陣雨。低溫 24°C。10 
 </details>
 
 <details>
-<summary>3. 格式化輸出, 語言理解, 實體識別, 函數調用</summary>
+<summary>3. 格式化輸出, 語言理解, 實體識別, 函式呼叫</summary>
 
 If you are interested in function-calling, I strongly recommend [using constrained decoding](https://huggingface.co/docs/text-generation-inference/basic_tutorials/using_guidance) to turn on `json mode`.
 
