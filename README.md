@@ -122,7 +122,7 @@ To run the evaluation, use the [script](https://github.com/adamlin120/needle-hay
 - Median Score: 9.0
 - Standard Deviation: 3.0349783771882133
 - Total Number of Scores: 160
-- [Model resopnse](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct-rc1/blob/main/Llama-3-Taiwan.jsonl)
+- [Model response](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct-rc1/blob/main/Llama-3-Taiwan.jsonl)
 - [GPT-4 Eval](https://huggingface.co/yentinglin/Llama-3-Taiwan-70B-Instruct-rc1/blob/main/gpt-4_single.jsonl)
 - [Code fork from `mtkresearch/TCEval` with bug fixing](https://github.com/adamlin120/TCEval)
 
