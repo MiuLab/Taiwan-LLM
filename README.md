@@ -323,3 +323,12 @@ The Taiwan LLM Initiative was started by Yenting Lin (林彥廷) in July 2023.
 - Version 2.0 was released in October 2023, sponsored by Ubitus K.K.
 
 These models are designed to support Traditional Mandarin and are optimized for Taiwanese culture and related applications. For more detailed information about our models, including demos, features, and examples, please visit our [Hugging Face collection](https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07).
+
+
+# Disclaimer
+
+This model is provided “as‑is” and without warranties of any kind. Users are solely responsible for evaluating the accuracy and suitability of the outputs. The developers assume no liability for any direct or indirect damages arising from its use.  
+The model is strictly not intended for high‑risk applications such as medical diagnosis, legal advice, or financial investment. For such use cases, please consult qualified professionals.
+
+本模型「如是」（as‑is）提供，使用者須自行評估結果之正確性與適用性。開發者對於使用本模型所引發之任何直接或間接損失，不承擔任何法律責任。  
+嚴禁用於醫療診斷、法律諮詢、金融投資等高風險場景；若有相關需求，請尋求專業人員協助。
